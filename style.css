@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    color: rgb(165, 158, 158);
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.container {
+    /* display: flex;
+    justify-content: space-around; */
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    float: left;
+    padding: 10px;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: white
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+.description {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.identity {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    word-spacing: 10px;
+}
+
+.frontImage {
+    width: 100%;
+    height: auto;
+}
+
+.link {
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    letter-spacing: 3px;
+
+
+}
+
+.link:hover {
+    border-bottom: 2px solid white;
+}
+
+.about {
+    margin-top: 10px;
+}
+
+.myself {
+    max-width: 100%;
+}
+
+.col-25 {
+    width: 25%;
+
+}
+
+.col-75 {
+    width: 75%;
+    margin-left: 25px;
+}
