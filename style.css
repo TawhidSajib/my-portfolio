@@ -288,3 +288,76 @@ ul {
     margin: 30px 10px;
 
 }
+
+.connectWithUs {
+    background-color: rgb(224, 211, 211);
+    padding: 30px 0px;
+}
+
+.contact-header {
+    text-align: center;
+    color: black;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.contact-para {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(104, 99, 99);
+    padding: 10px;
+    line-height: 25px;
+}
+
+.formName,
+.formEmail,
+.formText {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    color: #333;
+    margin: 30px 0px;
+    padding: 10px 0px
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.button {
+    text-align: center;
+}
+
+.submit {
+    border: none;
+    color: white;
+    background-color: #ff506d;
+    padding: 8px 35px;
+    font-family: montserrat;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: black;
+    color: white
+}
+
+.footer-para {
+    color: white;
+    text-align: center;
+    padding: 100px 0px
+}
