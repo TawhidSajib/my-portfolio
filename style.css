@@ -7,7 +7,7 @@ body {
     background-color: black;
 }
 
-.name {
+.logoName {
     color: rgb(165, 158, 158);
     padding: 10px;
     font-size: 20px;
@@ -15,8 +15,6 @@ body {
 }
 
 .container {
-    /* display: flex;
-    justify-content: space-around; */
     max-width: 1170px;
     margin: 0 auto;
 
@@ -51,7 +49,7 @@ ul {
     border-bottom: 2px solid white;
 }
 
-.description {
+.frontPage {
     margin-top: 10px;
     overflow: hidden;
     position: relative;
@@ -68,7 +66,7 @@ ul {
     flex-direction: column;
 }
 
-p {
+.name {
     font-size: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
@@ -106,6 +104,13 @@ p {
     max-width: 100%;
     height: auto;
 
+}
+
+.caption {
+    color: white;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 600;
 }
 
 .col-25 {
@@ -153,10 +158,10 @@ p {
 }
 
 .definition {
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'DM Sans',
         sans-serif;
-    line-height: 22px;
+    line-height: 25px;
     margin-top: 20px;
     color: gray;
 }
@@ -194,4 +199,69 @@ p {
 
 .vue-progress {
     width: 80%;
+}
+
+.contact {
+    margin-top: 12%;
+}
+
+.phone {
+    color: white;
+    float: left;
+    letter-spacing: 2px;
+
+}
+
+.phone span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.email {
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.email span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.services {
+    margin-top: 10%;
+    background-color: rgb(224, 211, 211);
+    padding: 30px 0px;
+}
+
+.service-header {
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+.service-para {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(104, 99, 99);
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.col-33 {
+    margin-top: 30px;
+    width: 33.33%;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.works {
+    background-color: white;
+    height: 600px;
 }
