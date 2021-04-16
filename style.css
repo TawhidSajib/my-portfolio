@@ -70,7 +70,7 @@ ul {
 }
 
 .name {
-    font-size: 45px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: antiquewhite;
     word-spacing: 10px;
@@ -119,6 +119,7 @@ ul {
 }
 
 .aboutColumn {
+    margin-top: 30px;
     margin-left: 30px;
 }
 
@@ -230,7 +231,7 @@ ul {
 
 .cvBtn {
     text-transform: capitalize;
-    margin-top: 27px;
+    margin-top: 42px;
     border: none;
     color: white;
     background-color: #0CB4CE;
@@ -390,7 +391,18 @@ input:focus {
 }
 
 @media only screen and (min-width: 960px) {
+    .name {
+        font-size: 42px;
+        font-family: Verdana,
+            Geneva,
+            Tahoma,
+            sans-serif;
+        color: antiquewhite;
+        word-spacing: 10px;
+    }
+
     .aboutColumn {
+        margin-top: 0px;
         margin-left: 30px;
     }
 
@@ -413,6 +425,16 @@ input:focus {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 959px) {
+    .name {
+        font-size: 42px;
+        font-family: Verdana,
+            Geneva,
+            Tahoma,
+            sans-serif;
+        color: antiquewhite;
+        word-spacing: 10px;
+    }
+
     .col-33 {
         width: 50%;
     }
