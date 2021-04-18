@@ -26,19 +26,23 @@ body {
 
 }
 
-
 .space-between {
     justify-content: space-between;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav-list {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    top: 40px;
+    left: 0;
+    display: none;
+
 }
 
 .nav-item {
-    float: left;
+    float: none;
+    display: block;
     padding: 10px;
 }
 
@@ -49,8 +53,11 @@ ul {
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid white;
+    color: #0CB4CE;
+    border-bottom: none;
 }
+
+
 
 .frontPage {
     margin-top: 10px;
@@ -80,6 +87,13 @@ ul {
     width: 100%;
     height: auto;
 }
+
+.item {
+    float: left;
+    padding: 10px;
+}
+
+
 
 .link {
     font-size: 16px;
@@ -122,7 +136,6 @@ ul {
     margin-top: 30px;
     margin-left: 30px;
 }
-
 
 .aboutHeader {
     text-transform: uppercase;
@@ -390,6 +403,90 @@ input:focus {
     padding: 50px 0px;
 }
 
+.checkBtn {
+    position: absolute;
+    display: block;
+    color: white;
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+
+}
+
+@media only screen and (min-width: 601px) {
+    .nav-list {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .nav-item {
+        float: left;
+        padding: 10px;
+    }
+
+    .nav-link {
+        display: block;
+        text-decoration: none;
+        color: white
+    }
+
+    .nav-link:hover {
+        color: white;
+        border-bottom: 2px solid white;
+    }
+
+    .item {
+        float: left;
+        padding: 10px;
+    }
+
+    .checkBtn {
+        color: white;
+        float: right;
+        padding: 10px;
+        cursor: pointer;
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 959px) {
+    .name {
+        font-size: 42px;
+        font-family: Verdana,
+            Geneva,
+            Tahoma,
+            sans-serif;
+        color: antiquewhite;
+        word-spacing: 10px;
+    }
+
+    .col-33 {
+        width: 50%;
+    }
+
+    .workImg {
+        height: 200px;
+    }
+
+    .col-25 {
+        width: 35%;
+    }
+
+    .col-75 {
+        width: 65%;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+}
+
 @media only screen and (min-width: 960px) {
     .name {
         font-size: 42px;
@@ -421,38 +518,6 @@ input:focus {
 
     .workImg {
         height: 200px;
-    }
-
-    .col-50 {
-        width: 50%;
-    }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 959px) {
-    .name {
-        font-size: 42px;
-        font-family: Verdana,
-            Geneva,
-            Tahoma,
-            sans-serif;
-        color: antiquewhite;
-        word-spacing: 10px;
-    }
-
-    .col-33 {
-        width: 50%;
-    }
-
-    .workImg {
-        height: 200px;
-    }
-
-    .col-25 {
-        width: 35%;
-    }
-
-    .col-75 {
-        width: 65%;
     }
 
     .col-50 {
