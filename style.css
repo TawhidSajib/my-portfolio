@@ -57,7 +57,15 @@ body {
     border-bottom: none;
 }
 
-
+.bar1,
+.bar2,
+.bar3 {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
 
 .frontPage {
     margin-top: 10px;
@@ -291,7 +299,7 @@ body {
     width: 100%;
 }
 
-.service-column {
+.serviceColumn {
     margin: 30px 10px;
     color: white;
     text-align: center;
@@ -446,7 +454,6 @@ input:focus {
     }
 
     .checkBtn {
-        color: white;
         float: right;
         padding: 10px;
         cursor: pointer;
