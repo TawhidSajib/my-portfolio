@@ -21,4 +21,13 @@ fetch('service.json')
 
             `
         })
+
+        let workColumn = document.querySelectorAll('.workColumn')
+        data.images.forEach((user, index) => {
+            workColumn[index].innerHTML +=
+                `
+                <img class="workImg" src="${user.image}" height="100%" width="100%">
+
+                 `
+        })
     })

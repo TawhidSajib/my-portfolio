@@ -1,28 +1,48 @@
 {
-    "data": [
+    "data": [{
+            "header": "Web Design",
+            "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
+        },
         {
             "header": "Web Design",
             "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
         },
-            {
+        {
             "header": "Web Design",
             "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
         },
-            {
+        {
             "header": "Web Design",
             "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
         },
-            {
+        {
             "header": "Web Design",
             "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
         },
-            {
+        {
             "header": "Web Design",
             "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
+        }
+    ],
+
+    "images": [
+        {
+            "image": "./images/work1.jpg"
         },
-            {
-            "header": "Web Design",
-            "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
+        {
+            "image": "./images/work2.jpg"
+        },
+        {
+            "image": "./images/work3.jpg"
+        },
+        {
+            "image": "./images/work4.jpg"
+        },
+        {
+            "image": "./images/work5.jpg"
+        },
+        {
+            "image": "./images/work6.jpg"
         }
     ]
 }
