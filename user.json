@@ -44,5 +44,32 @@
         {
             "image": "./images/work6.jpg"
         }
+    ],
+
+    "info": [
+        {
+            "name": "Tawhid Sajib",
+            "phone": "+8801618337447 ",
+            "email": "tauhidulsajib34@gmail.com"
+        }
+    ],
+
+    "skills": [
+        {
+            "name": "Html",
+            "progress": "90%"
+        },
+            {
+            "name": "Css",
+            "progress": "85%"
+        },
+            {
+            "name": "Js",
+            "progress": "75%"
+        },
+            {
+            "name": "Vue",
+            "progress": "80%"
+        }
     ]
 }
